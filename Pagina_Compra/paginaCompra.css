@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(46, 5, 5);
+}
+
+.informacoes{
+    background-color: rgb(185, 253, 255);
+    padding: 25px;
+    border-radius: 20px;
+    width: 632px;
+    height: 632px;
+}
+.img_detector{
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+}
+.nome{
+    position: relative;
+    left: 200px;
+    top: -200px;
+    font-size: 40px;
+}
+.descricao{
+    position: relative;
+    left: 10px;
+    top: -80px;
+    font-size: 20px;
+}

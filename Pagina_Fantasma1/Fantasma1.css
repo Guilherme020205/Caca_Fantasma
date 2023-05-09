@@ -1,0 +1,50 @@
+body {
+    background-color: aquamarine;
+}
+
+.bloco {
+    border-radius: 5%;
+    position: fixed;
+    left: 250px;
+    top: 45px;
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    height: 700px;
+    text-align: center;
+
+}
+
+img {
+    position: fixed;
+    left: 300px;
+    top: 150px;
+    width: 100px;
+}
+
+h1 {
+    position: fixed;
+    left: 420px;
+    top: 150px;
+}
+
+h2 {
+    position: fixed;
+    left: 420px;
+    top: 220px;
+}
+
+h3 {
+    position: fixed;
+    left: 420px;
+    top: 350px;
+}
+
+p {
+
+    position: fixed;
+    left: 920px;
+    top: 650px;
+
+}
+
+
