@@ -2,20 +2,40 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(46, 5, 5);
+    position: fixed;
+    background-color: rgb(0, 0, 0);
 }
 
 .informacoes{
     background-color: rgb(185, 253, 255);
     padding: 25px;
     border-radius: 20px;
+    width: 1270px;
+    height: 770px;
+}
+.tudo{
+    background-color: rgb(255, 255, 255);
     width: 632px;
     height: 632px;
+    padding: 10px;
+    border-radius: 30px;
 }
 .img_detector{
-    border-radius: 20px;
-    padding: 10px;
-    width: 200px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+}
+.img_detector img{
+    width: 100%;
+    transition: .4s all ease-in-out;
+}
+.img_detector:hover img{
+    transform: scale(1.5);
 }
 .nome{
     position: relative;
