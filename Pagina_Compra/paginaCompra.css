@@ -20,23 +20,16 @@ body{
     padding: 10px;
     border-radius: 30px;
 }
-.img_detector{
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+#box{
     overflow: hidden;
+}
+.detector{
+    width: 180px;
+    height: 180px;
+    transform-origin: center center;
+    object-fit: cover;
+}
 
-}
-.img_detector img{
-    width: 100%;
-    transition: .4s all ease-in-out;
-}
-.img_detector:hover img{
-    transform: scale(1.5);
-}
 .nome{
     position: relative;
     left: 200px;
