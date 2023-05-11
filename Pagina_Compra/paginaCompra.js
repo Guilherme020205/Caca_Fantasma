@@ -20,3 +20,11 @@ box.addEventListener("mouseleave", () => {
     img.style.transform = "scale(1)"
 })
 
+function compra() {
+    var disponivel = 1
+    if (disponivel == 1) {
+        alert("Produto indisponível \n(Pedimos Desculpas)")
+    } else {
+        location.href = ""
+    }
+} 

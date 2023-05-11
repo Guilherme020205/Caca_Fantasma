@@ -14,7 +14,7 @@ function carrossel(){
 }
 
 setInterval(carrossel, 1800);
-
+ 
 function procurar() {
     var temperatura = Number(document.getElementById('inTemperatura').value);
 
@@ -26,11 +26,8 @@ function procurar() {
     }
 } 
 
-function resumoCompra() {
-    var disponivel = 0
-    if (disponivel == 1) {
-        alert("Produto indisponível \n(Pedimos Desculpas)")
-    } else {
+function detalhes() {
+    
         location.href = "paginaCompra.html"
-    }
+    
 } 
