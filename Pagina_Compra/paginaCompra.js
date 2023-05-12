@@ -2,6 +2,7 @@ function voltar() {
     location.href = "PaginaInicial.html"
 } 
 
+
 const box = document.getElementById("box")
 const img = document.querySelector(".detector")
 
@@ -19,6 +20,7 @@ box.addEventListener("mouseleave", () => {
     img.style.transformOrigin = "center center"
     img.style.transform = "scale(1)"
 })
+
 
 function compra() {
     var disponivel = 1

@@ -2,49 +2,85 @@ body {
     background-color: aquamarine;
 }
 
-.bloco {
+.box_sobre_fantasma {
     border-radius: 5%;
     position: fixed;
-    left: 250px;
+    left: 30px;
     top: 45px;
     background-color: rgb(255, 255, 255);
-    width: 800px;
-    height: 700px;
+    width: 690px;
+    height: 600px;
     text-align: center;
 
 }
 
-img {
+.fotoFantasma{
     position: fixed;
-    left: 300px;
-    top: 150px;
-    width: 100px;
+    left: 60px;
+    top: 80px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 3px solid rgb(0, 255, 213);
 }
 
-h1 {
+.nomeFantasma{
     position: fixed;
-    left: 420px;
-    top: 150px;
+    left: 250px;
+    top: 100px;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: rgb(2, 46, 66);
+}
+ 
+.temperatura {
+    position: fixed;
+    left: 450px;
+    top: 200px;
+}
+.Text_Historia{
+    position: fixed;
+    left: 60px;
+    top: 250px;
+}
+.sobreFantasma{
+    position: fixed;
+    left: 60px;
+    top: 310px;
+    text-align: justify;
+    font-size: 20px;
 }
 
-h2 {
+input {
     position: fixed;
-    left: 420px;
-    top: 220px;
+    left: 640px;
+    top: 590px;
 }
 
-h3 {
+.box_comoDerrotar{
+    border-radius: 5%;
     position: fixed;
-    left: 420px;
-    top: 350px;
+    left: 740px;
+    top: 45px;
+    background-color: rgb(255, 255, 255);
+    width: 520px;
+    height: 600px;
 }
-
-p {
-
+.Text_ComoDerrotar{
     position: fixed;
-    left: 920px;
-    top: 650px;
-
+    left: 770px;
+    top: 100px;
+    color: rgb(131, 5, 5);
 }
-
-
+.comoDerrotar{
+    position: fixed;
+    left: 770px;
+    top: 190px;
+}
+.fantasminha{
+    position: fixed;
+    left: 950px;
+    top: 336px;
+    width: 400px;
+}
