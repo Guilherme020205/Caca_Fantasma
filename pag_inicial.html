@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/pag_inicial.css" />
+    <title>Fantasma SENAI</title>
+  </head>
+
+  <body>
+    <div class="Tudo">
+      <div class="Procurar">
+        <div class="itens_procurar">
+          <form>
+            <p class="text_procurar">Digite na caixa de texto abaixo a témperatura registrada</p>
+            <p>
+              <input
+                class="inputProcurar"
+                type="number"
+                min="-29"
+                max="127"
+                placeholder="Temperatura C°"
+                id="inTemperatura"
+                required
+              />
+              <input
+                class="inputProcurar"
+                type="submit"
+                onclick="procurar(); return false"
+              />
+              <img
+                class="gifFantasminhas"
+                src="img/img_pag_inicial/giffantasma.gif"
+                alt=""
+              />
+            </p>
+          </form>
+        </div>
+        
+      </div>
+
+      <div class="produto">
+        <form>
+          <p>
+            <img class="detector" src="img/img_pag_inicial/detector.png" />
+          </p>
+          <p class="titulo_produto">Detector de Fantasma</p>
+          <p class="preco_produto">R$800K</p>
+          <button class="button_produto" onclick="detalhes()" type="button" class="botaoDetalhes">
+            Detalhes
+          </button>
+        </form>
+      </div>
+
+      <div class="carrossel">
+        <div class="container" id="img">
+          <img
+            class="img_fantasmas"
+            src="img/img_pag_inicial/fantasma1.png"
+            alt=""
+          />
+          <img
+            class="img_fantasmas"
+            src="img/img_pag_inicial/fantasma2.png"
+            alt=""
+          />
+          <img
+            class="img_fantasmas"
+            src="img/img_pag_inicial/fantasma3.png"
+            alt=""
+          />
+          <img
+            class="img_fantasmas"
+            src="img/img_pag_inicial/fantasma4.png"
+            alt=""
+          />
+          <img
+            class="img_fantasmas"
+            src="img/img_pag_inicial/fantasma5.png"
+            alt=""
+          />
+          <img
+            class="img_fantasmas"
+            src="img/img_pag_inicial/fantasma6.png"
+            alt=""
+          />
+          <img
+            class="img_fantasmas"
+            src="img/img_pag_inicial/fantasma7.png"
+            alt=""
+          />
+          <img
+            class="img_fantasmas"
+            src="img/img_pag_inicial/fantasma8.png"
+            alt=""
+          />
+          <img
+            class="img_fantasmas"
+            src="img/img_pag_inicial/fantasma9.png"
+            alt=""
+          />
+          <img
+            class="img_fantasmas"
+            src="img/img_pag_inicial/fantasma10.png"
+            alt=""
+          />
+          <img
+            class="img_fantasmas"
+            src="img/img_pag_inicial/fantasma11.png"
+            alt=""
+          />
+          <img
+            class="img_fantasmas"
+            src="img/img_pag_inicial/fantasma12.png"
+            alt=""
+          />
+          <img
+            class="img_fantasmas"
+            src="img/img_pag_inicial/fantasma13.png"
+            alt=""
+          />
+          <img
+            class="img_fantasmas"
+            src="img/img_pag_inicial/fantasma14.png"
+            alt=""
+          />
+          <img
+            class="img_fantasmas"
+            src="img/img_pag_inicial/fantasma15.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <script src="js/pag_inicial.js"></script>
+  </body>
+</html>
