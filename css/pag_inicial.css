@@ -4,7 +4,8 @@
 
 body {
   zoom: 1;
-  position: fixed;
+  overflow-y: hidden;
+  overflow-x: hidden;
   background-color: rgb(0, 0, 0);
   background-image: url("img_fundo.avif");
   background-attachment: fixed;
@@ -19,8 +20,8 @@ body {
   top: -450px;
   box-shadow: 2px 2px 4px black;
   overflow: hidden;
-  height: 350px;
-  width: 350px;
+  height: 250px;
+  width: 250px;
 }
 
 .container {
@@ -31,14 +32,14 @@ body {
 
 .img_fantasmas {
   object-fit: cover;
-  height: 350px;
-  width: 350px;
+  height: 250px;
+  width: 250px;
 }
 
 .Procurar {
   position: relative;
-  left: 450px;
-  top: 90px;
+  left: 280px;
+  top: 50px;
   opacity: 90%;
   background-color: aliceblue;
   padding: 2.5%;
@@ -51,7 +52,7 @@ body {
 .itens_procurar {
   position: relative;
   left: 0px;
-  top: 50px;
+  top: 20px;
 
 }
 .text_procurar {
@@ -59,7 +60,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
 }
-
+ 
 .gifFantasminhas {
   width: 300px;
   opacity: 100%;
@@ -75,8 +76,8 @@ body {
 
 .produto {
   position: relative;
-  right: -1050px;
-  top: 100px;
+  right: -790px;
+  top: -50px;
   border: 1px solid #000000 ;
   padding: 10px;
   opacity: 90%;

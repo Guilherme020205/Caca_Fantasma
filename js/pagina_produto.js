@@ -13,7 +13,7 @@ box.addEventListener("mousemove", (e) => {
 
   img.style.transformOrigin = `${x}px ${y}px`;
   img.style.transform = "scale(2)";
-});
+}); 
 
 box.addEventListener("mouseleave", () => {
   img.style.transformOrigin = "center center";
