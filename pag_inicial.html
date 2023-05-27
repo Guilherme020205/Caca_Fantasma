@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/pag_inicial.css" />
-    <title>Fantasma SENAI</title>
+    <link rel="shortcut icon" href="img/img_todas_img_puras/logo.png" type="image/x-icon">
+    <title>Fantasma SENAI 2023</title>
   </head>
 
   <body>
@@ -17,7 +18,7 @@
             <p class="text_procurar">Digite na caixa de texto abaixo a témperatura registrada</p>
             <p>
               <input
-                class="inputProcurar"
+                class="inputProcurarTexto"
                 type="number"
                 min="-29"
                 max="127"
@@ -25,8 +26,9 @@
                 id="inTemperatura"
                 required
               />
+              
               <input
-                class="inputProcurar"
+                class="inputProcurarButton"
                 type="submit"
                 onclick="procurar(); return false"
               />

@@ -1,21 +1,22 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   zoom: 1;
   overflow-x: hidden;
   background-color: rgb(0, 0, 0);
-  background-image: url("fundo_pag_produto.gif");
+  background-image: url("fundo_pag_produto.png");
   background-attachment: fixed;
   background-size: 110%;
   background-repeat: no-repeat;
-}  
- 
+}
+
 .produto {
   position: relative;
   left: 20px;
   top: 10px;
-  border: 1px solid #000000 ;
+  border: 1px solid #000000;
   background-color: rgb(255, 255, 255);
   width: 632px;
   height: 700px;
@@ -27,7 +28,7 @@ body {
   height: max-content;
   width: max-content;
   overflow: hidden;
-  border: 1px solid #000000 ;
+  border: 1px solid #000000;
   border-radius: 10px;
 }
 
@@ -36,7 +37,9 @@ body {
   object-fit: cover;
   height: 200px;
   width: 200px;
+  cursor: zoom-in;
 }
+
 .detector2 {
   position: relative;
   top: 99px;
@@ -64,7 +67,7 @@ body {
   width: max-content;
   height: max-content;
   border-radius: 8px;
-  border: 1px solid #000000 ;
+  border: 1px solid #000000;
   padding: 10px;
 }
 
@@ -77,6 +80,7 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
 .acompanhamento {
   position: relative;
   left: 50px;
@@ -86,11 +90,15 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
 .botaoVoltar {
   position: relative;
   top: -130px;
   left: -180px;
+  cursor: pointer;
+
 }
+
 button {
   position: relative;
   left: 409px;
